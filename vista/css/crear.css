@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body h2 {
+    
+    font-family: 'Arial';
+    font-size: 30px;
+    text-align: center;
+    color:black;
+}
+
+
+.forma ul li{
+
+    list-style: none;
+}
+
+.forma {
+width: 400px;
+background:cornflowerblue;
+padding: 20px;
+margin: auto;
+margin-top: 20px;
+border-radius: 12px;
+font-family: 'calibri';
+color: Black;
+box-shadow: 7px 13px 37px gray;
+}
+
+
+.control {
+width: 100%;
+background: white;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border: 1px solid #1f53c5;
+font-family: 'calibri';
+font-size: 18px;
+color: black;
+list-style: none;
+
+}
+
+.contenedor_checkbox
+{
+
+display: flex;
+justify-content:space-around;
+align-items: center;
+flex-direction: row;
+}
+
+.enviar
+{
+  
+  font-family: 'Times New Roman';
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 4px;
+  width: 100%;
+  background:cornflowerblue;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 2px;
+  font-family: 'calibri';
+  font-size: 18px;
+  list-style: none;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-MX">
+<head>
+    <meta charset="UTF-8">
+    <title> Menu Principal </title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    
+    
+    <header class="encabezado">    
+        </div>
+
+
+        <div class="buscar">
+
+            <table class="tabla"> 
+                <tr class="fila"> 
+                  <td class="lupa">  
+                      <form name="busqueda" method="get" action="https://www.google.com/search" target="_blank">
+
+                       Ingresa Busqueda: <input type="search" name="buscar" placeholder="Termino a buscar" autofocus required>
+    
+                       <input type="submit"> <img src="../imagenes/busqueda-de-lupa.png"> 
+    
+                    </form> 
+                  </td>
+    
+                  <td class="usuario"> <a class="usuario1" href="#"><img class="usuario2" src="../imagenes/perfil-del-usuario.png"></a></td>
+                  <td class="pregunta"> <a class="pregunta1" href="#"> <img class="pregunta2" src="../imagenes/signo-de-interrogacion-dibujar.png"> </a> </td>
+                </tr>
+            </table>
+        </div>
+
+        
+        <nav id="menu-fijo">
+            <div> <img src="" alt=""></div>
+            <ul>
+                <li><a href="formulario.html"> <img class="icono" src="../imagenes/nueva-pagina.png"> Nuevo </a> </li>
+
+                <li>
+                    <a href="#"> <img class="icono" src="../imagenes/perfil-del-usuario.png"> Unidad</a>
+                    <ul>
+                        <li><a href="#"> <img class="icono" src="../imagenes/archivo-nuevo.png">Carpeta Nueva</a></li>
+                        <li><a href=""> <img class="icono" src="../imagenes/subir-archivo.png"> Subir Archivo 
+                             <div class="archivo"> 
+
+                            <form action="../PAGINAWEB/modelo/sube.php" method="post" enctype="multipart/form-data">
+                                    <input type="file" name="documento">
+                                    <button type="submit"> Subir Archivo</button>
+                                </form> 
+                             </div>
+                            </a> 
+                        </li>
+
+                        <li><a href="#"> <img class="icono" src="../imagenes/nueva-pagina.png">Subir Carpeta</a></li>
+                        <li><a href="https://docs.google.com/document/d/1ZnUMpfrpGTl59vbM5sLieSimY8Kg9C62JaopYHatlAY/edit"> <img class="icono" src="../imagenes/word.png">Documento en Word</a></li>
+                        <li><a href="https://docs.google.com/spreadsheets/d/1xzXP9apAI3AwDjrdmW53fTApUan4Gpmx12EF9wkquGk/edit"> <img class="icono" src="../imagenes/excel.png">Hoja de Calculo</a></li>
+                        <li><a href="https://docs.google.com/presentation/d/1DWPvJZnyXhFh3vJc2eOQRFVQkVZ7RdZA1z3aZxrRbvk/edit#slide=id.p"> <img class="icono" src="../imagenes/powerpoint.png">Presentacion</a></li>
+                    </ul>
+                </li>
+             
+                <li><a href="#"> <img class="icono" src="../imagenes/compartir.png"> Compartido</a></li>
+                <li><a href="#"> <img class="icono" src="../imagenes/historia.png"> Recientes</a></li>
+                <li><a href="#"> <img class="icono" src="../imagenes/insignia-destacada.png"> Destacados</a></li>
+                <li><a href="#"> <img class="icono" src="../imagenes/papelera-de-reciclaje.png"> Papelera</a></li>
+                <li><a href="#"> <img class="icono" src="../imagenes/configuracion.png"> Configuración</a></li>
+                <li><a href="#"> <img class="icono" src="../imagenes/almacenamiento-de-datos.png"> Almacenamiento</a></li>
+                <li><a href="#"> <img class="icono" src="../imagenes/descarga-en-la-nube.png"> Copia de Seguridad</a></li>
+            </ul>
+
+        </nav>
+
+            <table class="contenido">
+                    <tr>
+                        <td> Hola</td>
+                    </tr>
+
+                    <tr>
+                        <td> Juan</td>
+                    </tr>
+            </table>
+            
+
+    </header>
+
+</body>
+</html>
